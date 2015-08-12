@@ -1,0 +1,19 @@
+{
+  "name": "promise-tracker-client",
+  "version": "0.0.1",
+  "description": "Webapp Client for promise-tracker-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjlescano/promise-tracker-client.git"
+  },
+  "author": "mjlescano",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mjlescano/promise-tracker-client/issues"
+  },
+  "homepage": "https://github.com/mjlescano/promise-tracker-client#readme"
+}
