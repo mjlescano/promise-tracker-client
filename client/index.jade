@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Promise Tracker
+    link(rel='stylesheet', href='app.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+
+  body.loading
+    script(src='/polyfill.js')
+    script(src='/app.js', async)

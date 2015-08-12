@@ -4,6 +4,7 @@
   "description": "Webapp Client for promise-tracker-api",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon -q -w server --harmony",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,27 @@
   "bugs": {
     "url": "https://github.com/mjlescano/promise-tracker-client/issues"
   },
-  "homepage": "https://github.com/mjlescano/promise-tracker-client#readme"
+  "homepage": "https://github.com/mjlescano/promise-tracker-client#readme",
+  "engines": {
+    "node": "^0.12.0",
+    "npm": "^2.10.0"
+  },
+  "dependencies": {
+    "babel": "^5.8.21",
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "debug": "^2.2.0",
+    "jade": "^1.11.0",
+    "koa": "^0.21.0",
+    "koa-compose": "^2.3.0",
+    "koa-polyfill-service": "^0.1.1",
+    "koa-render": "^0.2.1",
+    "koa-router": "^5.1.2",
+    "koa-watchify": "^1.1.1",
+    "mz": "^2.0.0",
+    "nib": "^1.1.0",
+    "nodemon": "^1.4.1",
+    "stylus": "^0.52.0",
+    "watchify": "^3.3.1"
+  }
 }
